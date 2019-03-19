@@ -1,6 +1,6 @@
 ﻿namespace iBotCrawl
 {
-    partial class Form1
+    partial class main
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -52,14 +52,14 @@
             this.lblStatusCheck.TabIndex = 1;
             this.lblStatusCheck.Text = "label1";
             // 
-            // Form1
+            // main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(578, 392);
             this.Controls.Add(this.lblStatusCheck);
             this.Controls.Add(this.imgLogo);
-            this.Name = "Form1";
+            this.Name = "main";
             this.Text = "iBotCrawl";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.imgLogo)).EndInit();

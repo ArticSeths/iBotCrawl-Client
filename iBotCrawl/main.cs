@@ -16,9 +16,9 @@ using Quobject.SocketIoClientDotNet.Client;
 
 namespace iBotCrawl
 {
-    public partial class Form1 : Form
+    public partial class main : Form
     {
-        public Form1()
+        public main()
         {
             InitializeComponent();
             
@@ -58,7 +58,7 @@ namespace iBotCrawl
                 lgn.Show();
                 
             }
-            Form1 frm = new Form1();
+            main frm = new main();
             {
                 frm.Hide();
             }
